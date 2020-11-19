@@ -98,4 +98,3 @@ x= "3"
 y= 3
 hasil = x is y
 print(hasil)
-

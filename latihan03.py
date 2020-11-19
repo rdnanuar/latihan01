@@ -116,6 +116,7 @@ def modulus(a, b):
 
 def perpangkatan(a, b):
     return a ** b
+
 print('+')
 print('-')
 print('*')
@@ -140,5 +141,3 @@ elif pilih == "**":
 
 else :
     print("salah memasukan Operasi")
-    
-
