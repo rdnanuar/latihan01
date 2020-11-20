@@ -123,7 +123,7 @@ print('*')
 print('/')
 print('%')
 print('**')
-pilih=input("Masukan Nilai Operasi:")
+pilih=input("Masukan  Operasi:")
 A=int(input("Angka Pertama :"))
 B=int(input("Angka Kedua :"))
 if pilih == "+":
