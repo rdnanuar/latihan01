@@ -24,3 +24,7 @@ def perpangakatan(x):
         y +=str(int(i)**2)
     return int(y)
 print(perpangakatan(248))
+
+lst= "Hello world!"
+s = lst.split()
+print(" ".join(s[::-1]))
