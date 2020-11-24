@@ -31,7 +31,8 @@ class parent:
         return self.Anak
 Nama=parent("Udin","Max")
 
-print(Nama.Orangtua,Nama.Anak)
+print('Nama Orang tua adalah :',Nama.Orangtua)
+print('Nama anak adalah :',Nama.Anak)
 
 lst=[[31,4],[15,2],[51,8],[10,8],[35,11]]
 
