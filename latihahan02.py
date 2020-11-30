@@ -34,10 +34,10 @@ print(f"The string %s and the integer %d" %(myString,myInt))
 
 # string format
 
-print("the string format {} and the integer {}".format(myString,myInt))
+print(f"the string format  and the integer ".format(myString,myInt))
 
 print(f"====refrence use index=====")
-print(f"The string is {0} and integer is {1}".format(myString,myInt))
+print(f"The string is  and integer is ".format(myString,myInt))
 
 
 astring = "Hello world !"
@@ -52,7 +52,7 @@ print(astring.upper())
 print(astring.lower())
 
 astring= "Hello world !"
-print(astring.startswith("hello"))
+print(astring.startswith("Hello"))
 print(astring.endswith("hasdasdasdasdasd"))
 
 aspring = "Hello Wolrd !"
@@ -67,21 +67,21 @@ print(x < 3)
 name = "John"
 age = 23
 if name == "John" and age == 23:
-    print("Your name is john, and you are also 23 years old.")
+    print(f"Your name is john, and you are also 23 years old.")
 
 if name == "John" or name == "Rick":
-    print("Your name is either John Or Rick.")
+    print(f"Your name is either John Or Rick.")
 
 
 
 nilai=49
 if 80 <= nilai <=100:
     print("Nilai anda adalah A")
-elif 70 <= nilai <80:
+elif 70 <= nilai <=80:
     print("Nilai anda adalah B")
-elif 60 <= nilai <70:
+elif 60 <= nilai <=70:
     print("Nilai anda adalah C")
-elif 50 <= nilai <60:
+elif 50 <= nilai <=60:
     print("Nilai anda adalah D")
 else :
     print("Anda Tidak Lulus")
@@ -92,9 +92,17 @@ y= 12
 print('nilai x =,',x,',id =',hex(id(x)))
 print('nilai y =,',y,',id =',hex(id(y)))
 hasil= x is y
-print('x is y =',hasil)
+print(f'x is y =',hasil)
 
 x= "3"
 y= 3
 hasil = x is y
 print(hasil)
+
+lstBulan = ["Januari","Februari",'Maret',"april",'mei','juni','july','agustus','september','oktober','november','desember']\
+qwe=7
+def bulan(x):
+    if qwe == 0:
+        print(lstBulan[qwe])
+    return qwe
+print(bulan(lstBulan(qwe)))

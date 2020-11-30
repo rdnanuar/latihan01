@@ -49,7 +49,7 @@ while index < 20:
     index +=3
 index = 3
 while index < 20:
-    if index %3 ==0:
+    if index %3 == 0:
         print(index)
     index +=1
 print("====Break====")
